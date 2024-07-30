@@ -1,0 +1,170 @@
+/* ---------------- HEADER -------------- */
+.header {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    background-color: #fff;
+}
+
+.header .header-container {
+    display: flex;
+    padding: 20px 40px;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 75px;
+}
+
+.header .header-container a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .header-container a img {
+    height: 50px;
+    transition: 0.3s;
+}
+
+.header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+
+.header .header-container .logo a:hover{
+    font-size: 3.25rem;
+    color: #88b10c;
+}
+
+.header .header-container .logo a:hover img {
+    height: 60px;
+}
+
+
+/* ------------- MENU -------------*/
+
+.header nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.header nav ul li a {
+    /* border-radius: 50px; */
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 10px 30px;
+    transition: 0.3s;
+}
+
+.header nav ul li a:hover {
+    color: #88b10c;
+    font-weight: 700;
+    border-bottom: solid;
+}
+
+.header .menu {
+    display: none;
+    height: 60px;
+    width: 60px;
+    align-self: flex-end;
+}
+
+.header nav label {
+    display: flex;
+    flex-direction: column;
+}
+
+.header .hamburguer {
+    background-color: #000;
+    display: block;
+    height: 2px;
+    left: 15px;
+    position: relative;
+    top: 29px;
+    transition: 0.5s ease-in-out;
+    width: 30px;
+}
+
+.header .hamburguer:before,
+.header .hamburguer:after {
+    background-color: #000;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: 0.2s ease-in-out;
+    width: 100%;
+}
+
+.header .hamburguer:before {
+    top: -10px;
+}
+
+.header .hamburguer:after {
+    bottom: -10px;
+}
+
+.header input {
+    display: none;
+}
+
+.header input:checked ~ label .hamburguer {
+    transform: rotate(45deg);
+}
+
+.header input:checked ~ label .hamburguer:before {
+    transform: rotate(90deg);
+    top: 0;
+}
+
+.header input:checked ~ label .hamburguer:after {
+    transform: rotate(90deg);
+    bottom: 0;
+}
+
+
+@media (max-width: 900px) {
+    .header {
+        position: static;
+        width: 100%;
+    }
+
+    .header .header-container a img {
+        display: none;
+    }
+
+    .header .menu  {
+        display: block;
+    }
+
+    .header nav ul {
+        display: none;
+    }
+
+
+    .header input:checked ~ul {
+        display: block;
+    }
+
+
+    .header nav {
+        position: absolute;
+        top: 8px;
+        right: 20px;
+        z-index: 1;
+    }
+
+    .header nav ul {
+        background-color: #fff;
+        width: 200px;
+        padding: 20px;
+    }
+
+    .header nav ul a {
+        text-align: center;
+        padding: 20px;
+        display: block;
+    }
+
+}

@@ -1,0 +1,44 @@
+.evento-conteudo {
+    background-color: #fbfbfb;
+    padding: 100px 0;
+}
+
+.evento-conteudo h2 {
+    margin-bottom: 50px;
+    color: #88b10c;
+    text-align: center;
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+
+.section-comite .comite-conteudo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+.section-comite .comite-conteudo .conteudo h3 {
+    font-size: 2.3rem;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    font-weight: 900;
+    text-align: center;
+    color: #88b10c;
+}
+
+.section-comite .comite-conteudo .conteudo ul li {
+    text-align: center;
+    font-weight: 800;
+    margin-top: 10px;
+    font-size: 1.4rem;
+}
+/* ========================================================= */
+
+@media (max-width: 900px) {
+    .section-comite .comite-conteudo {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+    }
+}

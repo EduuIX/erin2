@@ -1,0 +1,23 @@
+.contato {
+    padding-top: 100px;
+}
+
+.contato .contato-conteudo {
+    display: flex;
+    flex-direction: column;
+}
+
+p .link{
+    color: #88b10c;
+}
+
+p .link:hover{
+    font-weight: 700;
+}
+
+@media (max-width: 900px) {
+    .contato {
+        padding: 0;
+        margin: 0;
+    }
+}

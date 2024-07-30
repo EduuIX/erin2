@@ -1,0 +1,23 @@
+.chamada {
+    padding-top: 100px;
+}
+
+.chamada .chamada-conteudo {
+    display: flex;
+    flex-direction: column;
+}
+
+p .link{
+    color: #88b10c;
+}
+
+p .link:hover{
+    font-weight: 700;
+}
+
+@media (max-width: 900px) {
+    .chamada {
+        padding: 0;
+        margin: 0;
+    }
+}

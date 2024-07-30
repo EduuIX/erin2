@@ -1,0 +1,101 @@
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo .titulo h2{
+    font-size: 5rem;
+    font-weight: 700;
+    color: #88b10c;
+}
+
+.logo .titulo h3 {
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: 800;
+    color: #88b10c;
+}
+
+.tabela {
+    margin: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+}
+
+.tabela .tabela-conteudo {
+    border-collapse: collapse;
+}
+
+.tabela .title {
+    margin-bottom: 40px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.tabela .tabela-conteudo thead .cabecalho{
+    background-color: #88b10c;
+}
+
+.tabela .tabela-conteudo thead tr th {
+    width: 10%;
+    color: #ffffff;
+}
+
+.tabela .tabela-conteudo tbody tr td h3{
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.tabela .tabela-conteudo tbody tr .conteudo{
+    font-size: 1.8rem;
+    margin: 20px 0;
+}
+
+.tabela .tabela-conteudo tbody .coffe{
+    background-color: silver;
+}
+
+.tabela .tabela-conteudo tbody .almoco{
+    background-color: rgb(192, 255, 241);
+}
+
+.tabela .tabela-conteudo tbody tr .professor{
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
+.tabela .tabela-conteudo tbody tr .mediador{
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
+.tabela .tabela-conteudo tbody tr .convidado{
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin: 0 30px;
+    text-align: left;
+}
+
+@media (max-width: 900px) {
+
+    .tabela {
+        font-size: 1.2rem;
+    }
+
+    .tabela .tabela-conteudo tbody tr td .conteudo {
+        font-size: 1.1rem;
+    }
+
+    .tabela .tabela-conteudo tbody tr td h3 {
+        font-size: 1.1rem;
+    }
+
+}

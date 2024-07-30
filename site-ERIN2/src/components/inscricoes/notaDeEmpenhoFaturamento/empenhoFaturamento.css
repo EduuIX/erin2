@@ -1,0 +1,45 @@
+.inscricoes .inscricoes-conteudo {
+    display: flex;
+    flex-direction: column;
+}
+
+.inscricoes .inscricoes-conteudo .empenhoFaturamento {
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fcfcfc;
+    box-shadow: 1px 1px 20px 0 rgba(127, 127, 127, 0.2);
+}
+
+.inscricoes .inscricoes-conteudo .empenhoFaturamento h2 {
+    margin-bottom: 50px;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #88b10c;
+    text-align: center;
+}
+
+.inscricoes .inscricoes-conteudo .empenhoFaturamento p {
+    margin: 0 100px;
+    font-weight: 500;
+    text-align: center;
+    font-size: 2rem ;
+}
+
+@media (max-width: 900px) {
+
+    .inscricoes {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .inscricoes .inscricoes-conteudo .empenhoFaturamento h2 {
+        font-size: 3.8rem;
+    }
+    
+    .inscricoes .inscricoes-conteudo .empenhoFaturamento p {
+        width: 90%;
+    }
+}

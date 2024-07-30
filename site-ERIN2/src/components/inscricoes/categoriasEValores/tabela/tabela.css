@@ -1,0 +1,68 @@
+
+
+.tabela-conteudo {
+    margin: 30px 30px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.tabela-conteudo thead .cabecalho{
+    background-color: #88b10c;
+}
+
+.tabela-conteudo thead .cabecalho th {
+    width: 35%;
+    color: #ffffff;
+}
+
+.tabela-conteudo tbody tr .percent {
+    text-align: center;
+    width: 50px;
+}
+
+.tabela-conteudo tbody tr .text {
+    text-align: center;
+    width: 450px;
+}
+
+.tabela-conteudo tbody tr .vazio {
+    text-align: center;
+    height: 20px;
+    background-color: #484545;
+}
+
+.tabela-conteudo tbody tr td {
+    text-align: center;
+    width: 150px;
+}
+
+.tabela-conteudo tbody tr td h3{
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.tabela-conteudo tbody tr .conteudo{
+    font-size: 1.8rem;
+    margin: 20px 0;
+}
+
+
+@media (max-width: 900px) {
+
+    .tabela-conteudo {
+        margin: 50px 5px;
+    }
+
+    .tabela-conteudo tbody{
+        font-size: 0.976rem;
+    }
+
+
+}

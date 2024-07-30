@@ -1,0 +1,82 @@
+.home {
+    display: flex;
+    justify-content: space-between;
+    background: url('/image/FundoVerde.png') center center no-repeat;
+    background-size: 100% auto;
+    height: 440px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 100px;
+}
+
+.home img {
+    margin-left: 10%;
+}
+
+.home .home-conteudo {
+    text-align: center;
+    width: 450px;
+    margin-right: 10%;
+    padding-top: 100px;
+    font-size: 3rem;
+}
+
+.home .home-conteudo p {
+    color: #fff;
+}
+
+.home .home-conteudo .btn {
+    margin-top: 40px;
+    font-size: 2rem;
+    border: 0.5px solid;
+    border-color: #fff;
+    background-color: transparent;
+    color: #fff;
+    padding: 2px 20px;
+    border-radius: 10px;
+    transition: 0.2s;
+
+}
+
+.home .home-conteudo .btn:hover {
+    font-size: 2.2rem;
+    background-color: #88b10c;
+}
+
+@media (max-width: 900px) {
+
+    .home {
+        align-items: center;
+        background-image: none;
+        background-color: #88b10c;
+        justify-content: center;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .home img {
+        display: none;
+    }
+
+    .home .home-conteudo {
+        padding: 0;
+        margin: 0;
+        margin: 50px 0;
+    }    
+
+    .home .home-conteudo p {
+        font-size: 2rem;
+    }
+
+    .home .home-conteudo .btn {
+        font-size: 1.6rem;
+    }
+
+    .home .home-conteudo .btn:hover {
+        font-size: 1.8rem;
+    }
+
+}

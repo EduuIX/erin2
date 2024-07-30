@@ -1,0 +1,19 @@
+.data {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 150px 0;
+    background-color: #ffffff;
+}
+
+.data h2 {
+    font-size: 4rem;
+    color: #000000;
+    font-weight: 800;
+    transition: 0.3s;
+}
+
+.data h2:hover {
+    color: #88b10c;
+    font-size: 4.025rem;
+} 

@@ -1,0 +1,109 @@
+.banner {
+    margin: 50px 30px;
+    border: 2px dashed;
+    padding: 20px;
+    text-align: center;
+}
+
+.banner .titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #88b10c;
+    text-align: center;
+}
+
+.banner .conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .conteudo .bonus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    border: 1px solid;
+    border-radius: 20px;
+    background-color: #88b10c;
+    color: #fff;
+}
+.banner .conteudo .bonus:hover{
+    font-size: 1.8rem;
+
+}
+
+.banner .conteudo .bonus p{
+    font-weight: 700;
+}
+
+
+.banner .conteudo .operador i{
+    font-size: 3rem;
+    color: #88b10c;
+    margin: 0 10px;
+}
+
+.banner .conteudo .texto {
+    display: flex;
+    justify-content: start;
+}
+
+.banner .conteudo .texto p {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.banner .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0 30px 0;
+}
+
+.banner .btn p {
+    font-size: 2rem;
+    border: 1px solid;
+    padding: 20px;
+    transition: 0.3s
+}
+
+.banner .btn p:hover {
+    font-size: 1.8rem;
+    background-color: #19c706;
+    color: #fff;
+}
+
+@media (max-width: 900px) {
+    .banner {
+        border: none;
+        margin: 50px 0;
+    }
+
+    .banner .conteudo {
+        flex-direction: column;
+    }
+
+    .banner .conteudo .operador {
+        margin: 30px 0;
+    }
+
+    .banner .btn {
+        margin-top: 100px;
+        margin-bottom: 0;
+    }
+
+    .banner .btn p {
+        min-width: 100%;
+        padding: 5px;
+        margin: 0;
+    }
+
+}

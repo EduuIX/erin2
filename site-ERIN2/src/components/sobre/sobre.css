@@ -1,0 +1,35 @@
+.sobre {
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 20px 0 rgba(127, 127, 127, 0.2);
+    margin-bottom: 10px;
+}
+
+.sobre h2 {
+    margin-bottom: 50px;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #88b10c;
+}
+
+.sobre p {
+    margin: 0 100px;
+    font-weight: 500;
+    text-align: center;
+    font-size: 2rem ;
+}
+
+.sobre p .destaque {
+    font-weight: 800;
+    color: #88b10c;
+}
+
+@media (max-width: 900px) {
+    .sobre p {
+        width: 90%;
+    }
+}
