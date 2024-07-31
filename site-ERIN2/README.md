@@ -1,5 +1,3 @@
-# Configuração do Servidor Apache
-
 # Passo 1: Criar o diretório do projeto
 
 
@@ -9,7 +7,14 @@ cd /var/www/html/
 sudo mkdir erin
 ```
 
-# Passo 2: Configurar o Apache para servir a aplicação
+# Passo 2: Copiar o diretório `dist` para `/var/www/html/erin/`
+```bash
+sudo cp -r dist/* /var/www/html/erin/
+```
+
+
+
+# Passo 3: Configurar o Apache para servir a aplicação
 
 
 1.   Editar o arquivo de configuração do Apache:
@@ -37,7 +42,7 @@ sudo mkdir erin
 </VirtualHost>
 ```
 
-# Passo 3: Habilitar o módulo de reescrita do Apache:
+# Passo 4: Habilitar o módulo de reescrita do Apache:
 
 
 1.   Certifique-se de que o módulo de reescrita do Apache está habilitado. Você pode habilitar o módulo usando o seguinte comando:
@@ -49,7 +54,7 @@ sudo a2enmod rewrite
 sudo systemctl restart apache
 ```
 
-# Passo 4: Acessar a Aplicação
+# Passo 5: Acessar a Aplicação
 1.    Usar o IP do Servidor:
 *   Acesse sua aplicação no navegador usando o endereço IP do seu servidor. Por exemplo, se o IP do seu servidor for 192.168.1.100, você deve acessar:
 ```bash
