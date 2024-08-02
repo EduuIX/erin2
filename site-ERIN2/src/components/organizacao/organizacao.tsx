@@ -1,25 +1,10 @@
-import Carousel from '../carrossel/carrossel';
 import './organizacao.css'
 import logoSBC from '/image/logo_sbc.png';
 import logoUFPA from '/image/ufpaLogo.png';
-import logoGercom from '/image/logo-gercom-nome.png';
-import logoPropesp from '/image/PROPESP.png';
-import logoLaCIS from '/image/logo-lacis.png'
+import logoLaCIS from '/image/logo-lacis-update.svg'
 
 
 const Organizacao: React.FC = () => {
-
-    
-    const images_realizacao = [
-        logoSBC,
-        logoUFPA,
-    ];
-    
-    const images_apoio = [
-        logoLaCIS,
-        logoGercom,
-        logoPropesp,
-    ];
 
     return (
         <>
@@ -27,17 +12,17 @@ const Organizacao: React.FC = () => {
                 <div className="organizacao-conteudo">
                     <h2>Organização</h2>
                     <div className="conteudo">
-                        <div className="realizacao">
-                            <h3>Realizado por:</h3>
-                            <div className="realizacao-conteudo">
-                                <Carousel images={images_realizacao} />
-                            </div>
+                        <div className="carta">
+                            <h4>UFPA</h4>
+                            <img src={logoUFPA} alt="" />
                         </div>
-                        <div className="apoio">
-                            <h3>Apoio:</h3>
-                            <div className="apoio-conteudo">
-                                <Carousel images={images_apoio} />
-                            </div>
+                        <div className="carta">
+                            <h4>SBC</h4>
+                            <img src={logoSBC} alt="" />
+                        </div>
+                        <div className="carta">
+                            <h4>LACIS</h4>
+                            <img src={logoLaCIS} alt="" />
                         </div>
                     </div>
                 </div>

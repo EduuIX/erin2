@@ -21,33 +21,49 @@
 }
 
 .organizacao .organizacao-conteudo .conteudo {
-    display: flex;
-    width: 160vh;
-    justify-content: space-between;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
     align-items: center;
+    justify-content: center;
 }
 
-.organizacao .organizacao-conteudo .conteudo h3 {
-    font-size: 2.3rem;
-    margin-bottom: 30px;
-    margin-top: 30px;
-    font-weight: 900;
+.organizacao .organizacao-conteudo .conteudo .carta {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 20px 0 rgba(44, 44, 44, 0.2);
+    text-align: start;
+    border-radius: 5px;
+}
+
+.organizacao .organizacao-conteudo .conteudo .carta h4 {
+    
     text-align: center;
+    font-weight: 700;
     color: #88b10c;
+}
+
+.organizacao .organizacao-conteudo .conteudo .carta img {
+    max-width: 130%;
+    max-height: 150px;
+    padding: 10px;
+    justify-self: center;
 }
 
 @media (max-width: 900px) {
     
     .organizacao .organizacao-conteudo .conteudo {
-        padding: 0;
-        margin: 0;
-        flex-direction: column;
-        width: 100%;
+        grid-template-columns: 1fr;
+        row-gap: 50px;
     }
     
-    .organizacao .organizacao-conteudo .conteudo .realizacao {
-        margin-bottom: 50px;
-    }
 }
 
 

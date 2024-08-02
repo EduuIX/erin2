@@ -24,7 +24,7 @@ const Banner = () => {
                         </p>
                     </div>
                 </div>
-                <Link to={"https://centraldesistemas.sbc.org.br/ecos/sbrc2023"} target='_blank'>
+                <Link to={"https://centraldesistemas.sbc.org.br/ecos/erin2_2024"} target='_blank'>
                     <div className="btn">
                         <p>Clique para aderir ao combo</p>
                     </div>

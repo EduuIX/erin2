@@ -8,7 +8,7 @@
 
 .header .header-container {
     display: flex;
-    padding: 20px 40px;
+    padding: 0px 40px;
     justify-content: space-between;
     align-items: center;
     min-height: 75px;
@@ -33,12 +33,7 @@
 }
 
 .header .header-container .logo a:hover{
-    font-size: 3.25rem;
     color: #88b10c;
-}
-
-.header .header-container .logo a:hover img {
-    height: 60px;
 }
 
 
@@ -53,8 +48,8 @@
     /* border-radius: 50px; */
     font-size: 1.8rem;
     font-weight: 700;
-    padding: 10px 30px;
-    transition: 0.3s;
+    padding: 5px 30px;
+    /* transition: 0.3s; */
 }
 
 .header nav ul li a:hover {
@@ -82,7 +77,7 @@
     left: 15px;
     position: relative;
     top: 29px;
-    transition: 0.5s ease-in-out;
+    transition: 0.3s ease-in-out;
     width: 30px;
 }
 
