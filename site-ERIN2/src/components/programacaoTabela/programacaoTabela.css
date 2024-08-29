@@ -4,7 +4,7 @@
     align-items: center;
 }
 
-.logo .titulo h2{
+.logo .titulo h2 {
     font-size: 5rem;
     font-weight: 700;
     color: #88b10c;
@@ -29,6 +29,19 @@
 
 .tabela .tabela-conteudo {
     border-collapse: collapse;
+    width: 90%;
+}
+
+.tabela .tabela-conteudo  .conteudo li {
+    text-align: left;
+    margin: 1rem 0;
+    width: fit-content;
+    list-style: disc;
+    margin-left: 30%;
+}
+
+.tabela .tabela-conteudo .mini {
+    background-color: rgba(83, 185, 24, 0.291);
 }
 
 .tabela .title {
@@ -84,6 +97,71 @@
     text-align: left;
 }
 
+.descricao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5rem;
+}
+
+.descricao .descricao-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.descricao .descricao-content .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 20px 0 rgba(127, 127, 127, 0.2);
+    padding: 5rem 0;
+    margin: 0.5rem 0;
+    border-radius: 10px;
+}
+
+.descricao .descricao-content .content.back{
+    background-color: rgba(10, 138, 3, 0.15);
+}
+
+
+.descricao .descricao-content .content .titulo {
+    text-align: center;
+    font-weight: 600;
+    font-size: 3rem;
+    width: 90%;
+    margin-bottom: 3rem;
+    color: #88b10c;
+}
+
+.descricao .descricao-content .content .desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    font-size: 2rem;
+    width: 90%;
+    margin: 3rem 0;
+}
+
+.descricao .descricao-content .content .desc .palestrante  {
+    margin-top: 2rem;
+}
+
+.descricao .descricao-content .content .desc .palestrante span {
+    font-weight: 800;
+}
+
+.descricao .descricao-content .content .desc .palestrante .name {
+    font-weight: 800;
+    color: #88b10c;
+}
+
 @media (max-width: 900px) {
 
     .tabela {
@@ -96,6 +174,21 @@
 
     .tabela .tabela-conteudo tbody tr td h3 {
         font-size: 1.1rem;
+    }
+
+    
+    .descricao .descricao-content .content .titulo {
+        font-size: 1.7rem;
+        margin: 0;
+    }
+    
+    .prof {
+        font-weight: 800;
+        font-size: 0.95rem;
+    }
+    
+    .descricao .descricao-content .content .desc {
+        font-size: 1.3rem;
     }
 
 }

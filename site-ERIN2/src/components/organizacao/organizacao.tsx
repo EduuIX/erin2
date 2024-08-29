@@ -15,14 +15,17 @@ const Organizacao: React.FC = () => {
                         <div className="carta">
                             <h4>UFPA</h4>
                             <img src={logoUFPA} alt="" />
+                            <p>Universidade Federal do Pará</p>
                         </div>
                         <div className="carta">
                             <h4>SBC</h4>
                             <img src={logoSBC} alt="" />
+                            <p>Sociedade Brasileira de Computação</p>
                         </div>
                         <div className="carta">
                             <h4>LACIS</h4>
                             <img src={logoLaCIS} alt="" />
+                            <p>Laboratório de Cidades Inteligentes e Sustentáveis</p>
                         </div>
                     </div>
                 </div>
