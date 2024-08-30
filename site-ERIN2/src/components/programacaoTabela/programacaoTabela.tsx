@@ -132,6 +132,7 @@ const ProgramacaoTabela = () => {
                     <div className="content back">
                         <h2 className='titulo'> <span>Título: </span>Crimes Virtuais: Estratégias para Combater Fraudes, Fake News, Crimes de Injuria, Difamação, Calunia e Pedofilia no Ambiente Digital</h2>
                         <h4><strong>Data: 27/09</strong></h4>
+                        <h4><strong>Hora: 16h30 às 18h</strong></h4>
                         <div className='desc'>
                             <p>
                                 <strong>Resumo: </strong>Este painel abordará os desafios crescentes no combate aos crimes virtuais, focando em fraudes, 
@@ -147,6 +148,7 @@ const ProgramacaoTabela = () => {
                     <div className="content">
                         <h2 className='titulo'> <span>Título: </span>Alocação de Recursos no Contínuo de Computação</h2>
                         <h4><strong>Data: 26/09</strong></h4>
+                        <h4><strong>Hora: 10h30 às 11h30</strong></h4>
                         <div className='desc'>
                             <p>
                                 <strong>Resumo: </strong>Com a extensão da nuvem para a névoa e borda, serviços computacionais podem ser espalhados por um 
@@ -182,6 +184,7 @@ const ProgramacaoTabela = () => {
                     <div className="content back">
                         <h2 className='titulo'> <span>Título: </span>Sustentabilidade e Mobilidade. É possível darem as mãos?</h2>
                         <h4><strong>Data: 26/09</strong></h4>
+                        <h4><strong>Hora: 15h às 16h</strong></h4>
                         <div className='desc'>
                             
                             <p>
@@ -202,6 +205,7 @@ const ProgramacaoTabela = () => {
                     <div className="content">
                         <h2 className='titulo'> <span>Título: </span>Cibersegurança na Era da Inteligência Artificial: Combate ao Cibercrime em um Mundo de Ameaças Emergentes</h2>
                         <h4><strong>Data: 27/09</strong></h4>
+                        <h4><strong>Hora: 10h30 às 11h30</strong></h4>
                         <div className='desc'>
                             
                             <p>
@@ -233,6 +237,7 @@ const ProgramacaoTabela = () => {
                     <div className="content back">
                         <h2 className='titulo'> <span>Título: </span>Introdução ao Aprendizado Federado: Teoria e Prática</h2>
                         <h4><strong>Data: 27/09</strong></h4>
+                        <h4><strong>Hora: 14h às 16h</strong></h4>
                         <div className='desc'>
                             
                             <p>
