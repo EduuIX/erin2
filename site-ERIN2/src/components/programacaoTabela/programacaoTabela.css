@@ -18,13 +18,18 @@
 }
 
 .tabela {
-    margin: 100px 20px;
+    margin: 3px 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     align-self: center;
+}
+
+.prof {
+    font-weight: 800;
+    font-size: 1.3rem;
 }
 
 .tabela .tabela-conteudo {
@@ -41,7 +46,14 @@
 }
 
 .tabela .tabela-conteudo .mini {
+    padding-top: 10%;
+    height: 10vw;
     background-color: rgba(83, 185, 24, 0.291);
+    border-top: none;
+}
+
+.tabela .tabela-conteudo .mini h3{
+    font-weight: 900;
 }
 
 .tabela .title {
@@ -54,12 +66,12 @@
     background-color: #88b10c;
 }
 
-.tabela .tabela-conteudo thead tr th {
-    width: 10%;
+.tabela .tabela-conteudo thead tr .c1 {
+    width: 8%;
     color: #ffffff;
 }
 
-.tabela .tabela-conteudo tbody tr td h3{
+.tabela .tabela-conteudo tbody tr td h3 {
     font-weight: 900;
     font-size: 1.5rem;
     margin: 10px 0;
@@ -70,11 +82,11 @@
     margin: 20px 0;
 }
 
-.tabela .tabela-conteudo tbody .coffe{
+.tabela .tabela-conteudo tbody .coffe {
     background-color: silver;
 }
 
-.tabela .tabela-conteudo tbody .almoco{
+.tabela .tabela-conteudo tbody .almoco {
     background-color: rgb(192, 255, 241);
 }
 
@@ -165,6 +177,7 @@
 @media (max-width: 900px) {
 
     .tabela {
+        margin: 0;
         font-size: 1.2rem;
     }
 
@@ -176,16 +189,37 @@
         font-size: 1.1rem;
     }
 
+    .tabela .tabela-conteudo .mini {
+        padding-top: 3rem;
+        height: 30vw;
+    }
+    
+    .prof {
+        font-size: 0.95rem;
+    }
+
+    .tabela .tabela-conteudo .mini .conteudo {
+        font-size: 1.2rem;
+    }
+
+    .tabela .tabela-conteudo .mini .conteudo .prof {
+        font-size: 0.5rem;
+    }
+
+    .descricao {
+        margin: 0 0.5rem;
+    }
     
     .descricao .descricao-content .content .titulo {
         font-size: 1.7rem;
         margin: 0;
     }
-    
-    .prof {
-        font-weight: 800;
-        font-size: 0.95rem;
+
+    .descricao .descricao-content .content h4 {
+        margin-top: 2rem;
+        font-size: 1.3rem;
     }
+    
     
     .descricao .descricao-content .content .desc {
         font-size: 1.3rem;

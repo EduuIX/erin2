@@ -3,23 +3,15 @@ import './programacaoTabela.css'
 const ProgramacaoTabela = () => {
     return (
         <>
-            <div className="logo">
-                <img src="./src/assets/image/logo-erin.png" alt="" />
-                    <div className="titulo">
-                        <h2>ERIN 2 — 2024</h2>
-                        <h3>Escola Regional de Informática Norte 2</h3>
-                    </div>
-            </div>
-
             <div className="tabela">
                 <h3 className="title">Programação da XVII Escola Regional de Informática Norte (ERIN 2024)</h3>
                 <table className="tabela-conteudo" border={1}>
                     <thead>
                         <tr className="cabecalho">
-                            <th>Início</th>
-                            <th>Fim</th>
-                            <th>26/09</th>
-                            <th>27/09</th>
+                            <th className='c1'>Início</th>
+                            <th className='c1'>Fim</th>
+                            <th className='c2'>26/09</th>
+                            <th className='c2'>27/09</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -77,11 +69,11 @@ const ProgramacaoTabela = () => {
                                 <h3>Sessão Técnica 1</h3>
                                 <p className='conteudo'>Apresentação de Artigos Científicos</p>
                             </td>
-                            <td className='mini'>
+                            <div className='mini'>
                                 <h3>Minicurso</h3>
                                 <p className='conteudo'>Introdução ao Aprendizado Federado: Teoria e Prática</p>
                                 <p className="prof"></p>
-                            </td>
+                            </div>
                         </tr>
                         <tr>
                             <td>15h</td>
@@ -91,13 +83,14 @@ const ProgramacaoTabela = () => {
                                 <p>Sustentabilidade e Mobilidade. É possível darem as mãos?</p>
                                 <p className="prof">Prof. Dr. Antonio Alfredo Ferreira Loureiro, UFMG</p>
                             </td>
-                            <td className='mini'>
+                            <div className='mini'>
+                                <p className="prof"></p>
                                 <p className='prof'>Dr. Joahannes Bruno Dias da Costa, UNICAMP</p>
                                 <ul className="prof">
                                     <li>Local: labcomp 3</li>
                                     <li>Capacidade: 30 pessoas</li>
                                 </ul>
-                            </td>
+                            </div>
                         </tr>
                         <tr className="coffe">
                             <td>16h</td>
@@ -137,22 +130,26 @@ const ProgramacaoTabela = () => {
             <section className="descricao">
                 <div className="descricao-content">
                     <div className="content back">
-                        <h2 className='titulo'>Crimes Virtuais: Estratégias para Combater Fraudes, Fake News, Crimes de Injuria, Difamação, Calunia e Pedofilia no Ambiente Digital</h2>
-                        <p className='desc'>
-                            Este painel abordará os desafios crescentes no combate aos crimes virtuais, focando em fraudes, 
-                            disseminação de fake news, crimes contra a honra e pedofilia. Especialistas discutirão as mais 
-                            recentes técnicas e tecnologias para identificar e mitigar essas ameaças no ambiente digital. 
-                            O painel também explorará a importância da colaboração entre as forças de segurança, empresas de 
-                            tecnologia, e a sociedade civil na criação de estratégias eficazes para proteger indivíduos e 
-                            garantir um ambiente online mais seguro. Serão debatidos os desafios legais, éticos e técnicos 
-                            envolvidos, bem como as melhores práticas e ferramentas para a prevenção e resposta a esses crimes.
-                        </p>
-                    </div>
-                    <div className="content">
-                        <h2 className='titulo'>Alocação de Recursos no Contínuo de Computação</h2>
+                        <h2 className='titulo'> <span>Título: </span>Crimes Virtuais: Estratégias para Combater Fraudes, Fake News, Crimes de Injuria, Difamação, Calunia e Pedofilia no Ambiente Digital</h2>
+                        <h4><strong>Data: 27/09</strong></h4>
                         <div className='desc'>
                             <p>
-                                Com a extensão da nuvem para a névoa e borda, serviços computacionais podem ser espalhados por um 
+                                <strong>Resumo: </strong>Este painel abordará os desafios crescentes no combate aos crimes virtuais, focando em fraudes, 
+                                disseminação de fake news, crimes contra a honra e pedofilia. Especialistas discutirão as mais 
+                                recentes técnicas e tecnologias para identificar e mitigar essas ameaças no ambiente digital. 
+                                O painel também explorará a importância da colaboração entre as forças de segurança, empresas de 
+                                tecnologia, e a sociedade civil na criação de estratégias eficazes para proteger indivíduos e 
+                                garantir um ambiente online mais seguro. Serão debatidos os desafios legais, éticos e técnicos 
+                                envolvidos, bem como as melhores práticas e ferramentas para a prevenção e resposta a esses crimes.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="content">
+                        <h2 className='titulo'> <span>Título: </span>Alocação de Recursos no Contínuo de Computação</h2>
+                        <h4><strong>Data: 26/09</strong></h4>
+                        <div className='desc'>
+                            <p>
+                                <strong>Resumo: </strong>Com a extensão da nuvem para a névoa e borda, serviços computacionais podem ser espalhados por um 
                                 conjunto de recursos computacionais que incluem dispositivos de usuários, a nuvem e uma 
                                 infraestrutura computacional intermediária. Ainda, o aumento da capacidade de rede promete 
                                 redução de atrasos em transferências de dados, habilitando um contínuo de capacidade computacional 
@@ -183,8 +180,10 @@ const ProgramacaoTabela = () => {
                         </div>
                     </div>
                     <div className="content back">
-                        <h2 className='titulo'>Sustentabilidade e Mobilidade. É possível darem as mãos?</h2>
+                        <h2 className='titulo'> <span>Título: </span>Sustentabilidade e Mobilidade. É possível darem as mãos?</h2>
+                        <h4><strong>Data: 26/09</strong></h4>
                         <div className='desc'>
+                            
                             <p>
                             </p>
                             <p className='palestrante'>
@@ -201,10 +200,12 @@ const ProgramacaoTabela = () => {
                         </div>
                     </div>
                     <div className="content">
-                        <h2 className='titulo'>Cibersegurança na Era da Inteligência Artificial: Combate ao Cibercrime em um Mundo de Ameaças Emergentes</h2>
+                        <h2 className='titulo'> <span>Título: </span>Cibersegurança na Era da Inteligência Artificial: Combate ao Cibercrime em um Mundo de Ameaças Emergentes</h2>
+                        <h4><strong>Data: 27/09</strong></h4>
                         <div className='desc'>
+                            
                             <p>
-                                Nesta palestra, você explora como a inteligência artificial (IA) está moldando o campo da 
+                                <strong>Resumo: </strong>Nesta palestra, você explora como a inteligência artificial (IA) está moldando o campo da 
                                 cibersegurança e, ao mesmo tempo, sendo usada por criminosos para sofisticar ataques. O tema 
                                 abordará os desafios modernos enfrentados pelas organizações na proteção de seus ativos digitais, 
                                 destacando as novas formas de cibercrime que estão emergindo, como ataques de ransomware com IA, 
@@ -230,10 +231,12 @@ const ProgramacaoTabela = () => {
                         </div>
                     </div>
                     <div className="content back">
-                        <h2 className='titulo'>Introdução ao Aprendizado Federado: Teoria e Prática</h2>
+                        <h2 className='titulo'> <span>Título: </span>Introdução ao Aprendizado Federado: Teoria e Prática</h2>
+                        <h4><strong>Data: 27/09</strong></h4>
                         <div className='desc'>
+                            
                             <p>
-                                Aprendizado Federado, ou Federated Learning (FL) em inglês, é uma técnica de aprendizado de 
+                                <strong>Resumo: </strong>Aprendizado Federado, ou Federated Learning (FL) em inglês, é uma técnica de aprendizado de 
                                 máquina que permite treinar modelos diretamente nos dispositivos locais, como smartphones ou 
                                 computadores, em vez de centralizar os dados em um único servidor. Isso preserva a privacidade 
                                 dos usuários, pois os dados sensíveis nunca deixam os dispositivos, e reduz a necessidade de 
