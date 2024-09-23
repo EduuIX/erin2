@@ -134,6 +134,7 @@
     padding: 5rem 0;
     margin: 0.5rem 0;
     border-radius: 10px;
+    width: 95%;
 }
 
 .descricao .descricao-content .content.back{
@@ -172,6 +173,22 @@
 .descricao .descricao-content .content .desc .palestrante .name {
     font-weight: 800;
     color: #88b10c;
+}
+
+.descricao .descricao-content .content .desc ul li {
+    list-style-type: decimal;
+}
+
+.descricao .descricao-content .content .desc ul p {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 3rem;
+}
+
+.descricao .descricao-content .content .desc ul p .red {
+    color: red;
 }
 
 @media (max-width: 900px) {
@@ -224,5 +241,10 @@
     .descricao .descricao-content .content .desc {
         font-size: 1.3rem;
     }
+
+    
+.descricao .descricao-content .content .desc ul p {
+    font-size: 1.158rem;
+}
 
 }

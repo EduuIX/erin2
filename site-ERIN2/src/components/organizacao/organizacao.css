@@ -12,6 +12,7 @@
     background-color: #fbfbfb;
 }
 
+
 .organizacao .organizacao-conteudo h2 {
     text-align: center;
     margin-bottom: 50px;
@@ -47,6 +48,11 @@
     box-shadow: 1px 1px 20px 0 rgba(44, 44, 44, 0.2);
     text-align: start;
     border-radius: 5px;
+    transition: 0.5s;
+}
+
+.organizacao .organizacao-conteudo .conteudo .carta:hover {
+    transform: scale(1.055);
 }
 
 .organizacao .organizacao-conteudo .conteudo .carta h4 {

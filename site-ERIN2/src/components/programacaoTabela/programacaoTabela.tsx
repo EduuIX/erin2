@@ -27,7 +27,7 @@ const ProgramacaoTabela = () => {
                             <td>
                                 <p className='conteudo'>Inovação e Sustentabilidade: Casos de sucesso com empresa e sociedade</p>
                                 <ul className="conteudo">
-                                    <li>Segurança</li>
+                                    <li>Segurança Cibernética Aplicada</li>
                                     <li>Manna Amazônia</li>
                                 </ul>
                             </td>
@@ -263,6 +263,100 @@ const ProgramacaoTabela = () => {
  
 
                             </p>
+                        </div>
+                    </div>
+                    <div className="content">
+                        <h2 className='titulo'> {/*<span>Título: </span>*/}Sessão Tecnica 1</h2>
+                        <h4><strong>Data: 26/09</strong></h4>
+                        <h4><strong>Hora: 14h às 15h</strong></h4>
+                        <div className='desc'>
+                            <ul>
+                                <li>
+                                    Aplicação e Otimização de Redes Neurais Convolucionais para Detecção de Desmatamento
+                                    em Imagens de Satélite Sentinel-2 
+                                </li>
+                                <p>Leonardo Tamasauskas, Jean Dias, Gabriel Costa, Marcos Seruffo</p>
+                                <li>
+                                    Visão Computacional na Prática: Um Sistema de Detecção de Lixo para Cidades Inteligentes no Estado do Pará
+                                </li> 
+                                <p>
+                                    Romário da Costa Silva, Thalita Ayass de Souza, Evelin Helena Silva Cardoso, Jasmine Priscyla Leite de Araújo,
+                                    Carlos Renato Lisboa Francês
+                                </p>
+                                <li>Pruning e Aprendizado Federado: Redução de Dados e Otimização de Processamento</li>
+                                <p>
+                                    Renan Morais, Refael Veiga, Denis Rosário, Eduardo Cerquira
+                                </p>
+                                <li>Deep Learning Aplicado na Classificação de Doenças em Frutos do Cacaueiro</li>
+                                <p>
+                                    Gilberto Nerino de Souza Junior, Lariane Joana Bezerra Lima, Micaías de Oliveira Silva, 
+                                    Edian Franklin Franco de Los Santos, Emanuel Montero Espaillat, Denes de Souza Barros, Gustavo Antônio Ruffeil Alves,
+                                    Daniel Leal Souza, Fabrício Almeida Araújo, Rommel T. J. Barros, Marcus de Barros Braga
+                                </p>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="content back">
+                        <h2 className='titulo'> {/*<span>Título: </span>*/}Sessão Tecnica 2</h2>
+                        <h4><strong>Data: 26/09</strong></h4>
+                        <h4><strong>Hora: 16h30 às 18h</strong></h4>
+                        <div className='desc'>
+                            <ul>
+                                <li>
+                                    Ensino da História da Cabanagem através do Jogo "O Cabano"  
+                                </li>
+                                <p>Pedro Inácio de Carvalho Junior, Fabíola Araújo</p>
+                                <li>
+                                    CEIA - ESCOLIAPP: Aplicativo para Auxílio no Diagnóstico de Escoliose
+                                </li> 
+                                <p>
+                                    Elielson F. Barbosa, João P. Baganha, Dante B. Giubilei, Matheus H. Santos, Alessandra Natasha Barreiros, Bruno 
+                                    Acatauassu, <span className="red">PAES BARRETO</span>
+                                </p>
+                                <li>
+                                    O Impacto do Pensamento Computacional no Desenvolvimento Cognitivo: Um Relato de Experiência em Escola Pública
+                                    </li>
+                                <p>
+                                    Marcos Antônio de S. Junior, Salomão C. Bitencourt, Tatiana D. Fernandes, Decíola F. de Souza
+                                </p>
+                                <li>
+                                    Aplicando Design Thinking para a Melhoria de Processos de Desenvolvimento de Software
+                                    </li>
+                                <p>
+                                    João F. de Santana Filho, Isadora C. B. Sampaio <span className="red">SANTANNA</span>, Walmir Oliveira Couto
+                                </p>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="content">
+                        <h2 className='titulo'> {/*<span>Título: </span>*/}Sessão Tecnica 3</h2>
+                        <h4><strong>Data: 27/09</strong></h4>
+                        <h4><strong>Hora: 09h às 10h</strong></h4>
+                        <div className='desc'>
+                            <ul>
+                                <li>
+                                    Alocação de Recursos em Redes de Distribuição Quântica de Chaves Definidas por Software  
+                                </li>
+                                <p>Arthur Pimentel, Diego Abreu, Antônio Abelém</p>
+                                <li>
+                                    Anonimização de Dados Não Estruturados Com Foco em Nomes Pessoais do Português Brasileiro
+                                </li> 
+                                <p>
+                                    Marisa de Andrade, João Lima, <span className="red">FANTYNI</span> Santos, Brenda Cardoso, Renato Hidaka, Nelson Neto
+                                </p>
+                                <li>
+                                    Desenvolvimento de uma Ferramenta Assistiva Médica de Contexto Específico em Libras
+                                </li>
+                                <p>
+                                    Heitor S. R. S. Pinto, Geovani da S. do Amaral, Caio C. Moreira
+                                </p>
+                                <li>
+                                    Análise Preditiva e Interpretação da Classificação de Malwares em Sistemas Android Usando Aprendizado de Máquina
+                                </li>
+                                <p>
+                                    Geovani da S. do Amaral, Heitor S. R. S. Pinto, Caio C. Moreira
+                                </p>
+                            </ul>
                         </div>
                     </div>
                 </div>
