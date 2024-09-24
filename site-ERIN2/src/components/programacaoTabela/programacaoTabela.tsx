@@ -312,7 +312,7 @@ const ProgramacaoTabela = () => {
                                 </li> 
                                 <p>
                                     Elielson F. Barbosa, João P. Baganha, Dante B. Giubilei, Matheus H. Santos, Alessandra Natasha Barreiros, Bruno 
-                                    Acatauassu, <span className="red">PAES BARRETO</span>
+                                    Acatauassu Paes Barreto
                                 </p>
                                 <li>
                                     O Impacto do Pensamento Computacional no Desenvolvimento Cognitivo: Um Relato de Experiência em Escola Pública
@@ -324,7 +324,7 @@ const ProgramacaoTabela = () => {
                                     Aplicando Design Thinking para a Melhoria de Processos de Desenvolvimento de Software
                                 </li>
                                 <p>
-                                    João F. de Santana Filho, Isadora C. B. Sampaio <span className="red">SANTANNA</span>, Walmir Oliveira Couto
+                                    João F. de Santana Filho, Isadora C. B. Sampaio Santanna, Walmir Oliveira Couto
                                 </p>
                                 <li>
                                     VulnParser: Uma Ferramenta Automatizada para Detecção de Anomalias em Redes
@@ -349,7 +349,7 @@ const ProgramacaoTabela = () => {
                                     Anonimização de Dados Não Estruturados Com Foco em Nomes Pessoais do Português Brasileiro
                                 </li> 
                                 <p>
-                                    Marisa de Andrade, João Lima, <span className="red">FANTYNI</span> Santos, Brenda Cardoso, Renato Hidaka, Nelson Neto
+                                    Marisa de Andrade, João Lima, Fantiny Santos, Brenda Cardoso, Renato Hidaka, Nelson Neto
                                 </p>
                                 <li>
                                     Desenvolvimento de uma Ferramenta Assistiva Médica de Contexto Específico em Libras

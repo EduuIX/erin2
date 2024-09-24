@@ -187,10 +187,6 @@
     margin-bottom: 3rem;
 }
 
-.descricao .descricao-content .content .desc ul p .red {
-    color: red;
-}
-
 @media (max-width: 900px) {
 
     .tabela {
