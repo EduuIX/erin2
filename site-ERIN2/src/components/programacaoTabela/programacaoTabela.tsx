@@ -29,6 +29,7 @@ const ProgramacaoTabela = () => {
                                 <ul className="conteudo">
                                     <li>Segurança Cibernética Aplicada</li>
                                     <li>Manna Amazônia</li>
+                                    <li>INCT ICoNIoT</li>
                                 </ul>
                             </td>
                             <td>
@@ -315,15 +316,21 @@ const ProgramacaoTabela = () => {
                                 </p>
                                 <li>
                                     O Impacto do Pensamento Computacional no Desenvolvimento Cognitivo: Um Relato de Experiência em Escola Pública
-                                    </li>
+                                </li>
                                 <p>
                                     Marcos Antônio de S. Junior, Salomão C. Bitencourt, Tatiana D. Fernandes, Decíola F. de Souza
                                 </p>
                                 <li>
                                     Aplicando Design Thinking para a Melhoria de Processos de Desenvolvimento de Software
-                                    </li>
+                                </li>
                                 <p>
                                     João F. de Santana Filho, Isadora C. B. Sampaio <span className="red">SANTANNA</span>, Walmir Oliveira Couto
+                                </p>
+                                <li>
+                                    VulnParser: Uma Ferramenta Automatizada para Detecção de Anomalias em Redes
+                                </li>
+                                <p>
+                                    Lucas Pacheco, Allan Costa, Eduardo Cerqueira, Denis Rosário    
                                 </p>
                             </ul>
                         </div>
