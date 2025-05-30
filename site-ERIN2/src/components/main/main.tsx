@@ -6,19 +6,32 @@ const Main = () => {
         <>
             <section>
                 <div className="main" id="main">
-                    <img src={image} alt="" />
-                    <div className="info">
-                        <p>Atualmente, a ERIN é um dos principais eventos na área das TICs no Norte do Brasil. Em 2024,
-                            a Universidade Federal do Pará organizará a <strong className="destaque">XVII Escola Regional de Informática Norte 2</strong>, com o foco em
-                            discutir e aproximar as principais iniciativas de Inovação e Soluções em TIC voltadas para o
-                            <strong className="destaque"> desenvolvimento da Região Amazônica</strong>, a partir de instituições de ensino, pesquisa, empresas, de
-                            instituições governamentais e não governamentais e da sociedade civil em geral.
-                        </p>
-                        <p>A XVII ERIN será um ambiente oportuno para compartilhar conhecimento e experiências de
-                            profissionais, pesquisadores e acadêmicos das áreas de TIC, em busca de <strong className="destaque">inovações tecnológicas</strong> e
-                            <strong className="destaque"> soluções sustentáveis</strong> para <strong className="destaque">sociedade</strong> e <strong className="destaque">meio ambiente</strong>, visando o desenvolvimento e o progresso da
-                            região Norte.
-                        </p>
+                    <div className="main-container">
+                        <img src={image} alt="" />
+                        <div className="info">
+                            <p>
+                                A <strong className='destaque'>XVIII Escola Regional de Informática Norte 2 (ERIN2)</strong> consolida-se como um
+                                dos principais eventos em Tecnologias da Informação e Comunicação (TIC) na
+                                região Norte do Brasil. Em 2025, o evento será sediado em <strong className='destaque'>Macapá-AP</strong>, sob a
+                                coordenação do <strong className='destaque'>Instituto Federal do Amapá (IFAP)</strong>, <strong className='destaque'>Universidade Federal do
+                                Ampá (Unifap)</strong> e <strong className='destaque'>Universidade Federal do Pará (UFPA)</strong>, reunindo pesquisadores,
+                                profissionais, estudantes, representantes do setor produtivo, do governo e da
+                                sociedade civil.
+                            </p>
+                            <p>
+                                Com o tema voltado à <strong className='destaque'>inovação tecnológica</strong>, <strong className='destaque'>inclusão digital</strong> e <strong className='destaque'>sustentabilidade</strong>
+                                na Amazônia, a ERIN2 será um espaço estratégico para o compartilhamento de
+                                experiências e o fortalecimento de redes colaborativas. A programação incluirá
+                                palestras, painéis, oficinas, sessões técnicas e mostras de projetos que abordam
+                                soluções em TIC aplicadas ao desenvolvimento regional.
+                            </p>
+                            <p>
+                                O evento busca promover a integração entre ensino, pesquisa, mercado e políticas
+                                públicas, contribuindo para o avanço científico e social da região amazônica por
+                                meio da ciência da computação, inteligência artificial, dados, redes e outras áreas
+                                emergentes da computação.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </section>

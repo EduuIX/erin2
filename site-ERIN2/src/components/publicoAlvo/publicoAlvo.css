@@ -6,29 +6,59 @@
     align-items: center;
     background-color: #fff;
     box-shadow: 1px 1px 20px 0 rgba(127, 127, 127, 0.2);
+    height: 100vh;
 }
 
 .alvo h2 {
     margin-bottom: 50px;
-    font-size: 4rem;
+    font-size: 5rem;
     font-weight: 700;
     color: #88b10c;
+    height: 30%;
 }
 
 .alvo p {
+    height: 70%;
     margin: 0 100px;
-    font-weight: 500;
+    font-weight: 600;
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
+    width: 80%;
 }
 
 .alvo p .destaque {
     font-weight: 700;
-    color: #88b10c;
+    color: #11cf00;
+}
+
+.alvo .prog {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    justify-items: center;
+    padding: 1rem 0;
+}
+
+.alvo .prog ul li {
+    list-style: disc;
+    font-size: 3rem;
 }
 
 @media (max-width: 900px) {
     .alvo p {
         width: 90%;
+    }
+
+    .alvo h2 {
+        font-size: 4rem;
+    }
+
+    .alvo p {
+        font-size: 1.5rem;
+    }
+
+    .alvo .prog ul li {
+        list-style: disc;
+        font-size: 1.5rem;
     }
 }

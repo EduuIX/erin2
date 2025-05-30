@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import './header.css';
-import logoErin from '/image/logo-erin.png'
+import logoErin from '/image/logo-erin.svg'
 
 
 const handleLogoClick = () => {

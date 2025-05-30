@@ -22,6 +22,7 @@
 
 .header .header-container a img {
     height: 50px;
+    margin-right: 1rem;
     transition: 0.3s;
 }
 

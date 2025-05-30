@@ -1,6 +1,6 @@
 .data {
     display: flex;
-    text-align: center;
+    align-items: center;
     justify-content: center;
     padding: 150px 0;
     background-color: #ffffff;
@@ -8,8 +8,18 @@
 
 .data h2 {
     font-size: 4rem;
+    text-align: center;
     color: #000000;
     font-weight: 800;
     transition: 0.3s;
     color: #88b10c;
+}
+
+@media (max-width: 900px) {
+    .data {
+        padding: 2rem 0;
     }
+    .data h2 {
+        width: 80%;
+    }
+}
