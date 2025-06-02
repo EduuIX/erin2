@@ -9,7 +9,7 @@ const PublicoAlvo = () => {
                     <p>
                         A <strong className="destaque">XVIII Escola Regional de Informática Norte 2 (ERIN2)</strong> é direcionada,
                         prioritariamente, a <strong className="destaque">professores</strong>, <strong className="destaque">pesquisadores</strong>, <strong className="destaque">estudantes técnicos</strong>, <strong className="destaque">graduação </strong>
-                         e <strong className="destaque">pós-graduação</strong> das áreas de <strong className="destaque">Tecnologia da Informação e Comunicação (TIC)</strong>,
+                        e <strong className="destaque">pós-graduação</strong> das áreas de <strong className="destaque">Tecnologia da Informação e Comunicação (TIC)</strong>,
                         além de <strong className="destaque">profissionais</strong>, <strong className="destaque">empreendedores</strong> e <strong className="destaque">empresas do setor tecnológico</strong>.
                         O evento também é aberto à participação de gestores públicos, representantes de
                         startups, ONGs e instituições que atuam com <strong className="destaque">inovação</strong>, <strong className="destaque">educação</strong>, <strong className="destaque">inclusão
