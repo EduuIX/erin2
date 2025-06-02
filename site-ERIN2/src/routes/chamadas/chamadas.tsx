@@ -10,8 +10,8 @@ const Chamadas = () => {
             <section className="chamada">
                 <div className="chamada-conteudo">
                     <ChamadaDeTrabalho />
-                    <DatasImportantes />
                     <ChamadaTopico />
+                    <DatasImportantes />
                     <ChamadaAutores />
                 </div>
             </section>

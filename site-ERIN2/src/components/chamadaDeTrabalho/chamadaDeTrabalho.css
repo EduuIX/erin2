@@ -28,6 +28,13 @@
     font-size: 2rem ;
 }
 
+
+.chamada p .destaque {
+    font-weight: 800;
+    color: #88b10c;
+}
+
+
 @media (max-width: 900px) {
 
     .chamada {
