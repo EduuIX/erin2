@@ -1,13 +1,21 @@
+.home-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
 .home {
     display: flex;
-    justify-content: space-between;
-    background: url('/image/FundoVerde.png') center center no-repeat;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background: url('/image/banner.png') center center no-repeat;
     background-size: 100% auto;
-    height: 440px;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
-    padding-top: 100px;
+    width: 80%;
+    height: 92vh;
+
 }
 
 .home img {
@@ -46,20 +54,24 @@
 
 @media (max-width: 900px) {
 
+    .home-section {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    
     .home {
         align-items: center;
-        background-image: none;
-        background-color: #88b10c;
         justify-content: center;
-        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
-        height: 100%;
-        padding: 0;
-        margin: 0;
+        height: 20vh;
+        width: 98%;
     }
 
-    .home img {
+    /* .home img {
         display: none;
-    }
+    } */
 
     .home .home-conteudo {
         padding: 0;

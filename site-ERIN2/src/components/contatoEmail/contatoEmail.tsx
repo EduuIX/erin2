@@ -11,8 +11,8 @@ const ContatoEmail = () => {
                     <strong className="destaque"> comentário</strong> ou deseja <strong className="destaque">mais informações</strong> sobre a
                     XVII Escola Regional de Informática Norte 2, por favor, não hesite em nos contatar.
                 </p>
-                <p className='email'>Email: iagomedeiros@ufpa.br</p>
-                <Link className='link-email' to={"mailto:iagomedeiros@ufpa.br"}> <div className="btn">Envie-nos um E-mail</div> </Link>
+                <p className='email'>Email: thiego.nunes@ifap.edu.br, rafael@unifap.br</p>
+                <Link className='link-email' to={"mailto:thiego.nunes@ifap.edu.br, rafael@unifap.br"}> <div className="btn">Envie-nos um E-mail</div> </Link>
             </section>
         </>
     )

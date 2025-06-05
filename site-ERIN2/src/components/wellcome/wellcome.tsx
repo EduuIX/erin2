@@ -1,17 +1,15 @@
-import { Link } from 'react-router-dom';
 import './wellcome.css'
-import imageNotebook from '/image/NotebookIlus.png'
 
 const Wellcome = () => {
     return (
         <>
-            <section>
+            <section className='home-section'>
                 <div className="home" id="home">
-                    <img src={imageNotebook} alt="" />
-                    <div className="home-conteudo">
+                    {/* <img src={imageNotebook} alt="" /> */}
+                    {/* <div className="home-conteudo">
                         <p>Bem vindo à XVIII edição da escola regional de informática norte 2 da sociedade brasileira de computação</p>
                         <Link to="/evento" className="btn">Conheça</Link>
-                    </div>
+                    </div> */}
                 </div>
             </section>
         </>

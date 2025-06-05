@@ -37,7 +37,7 @@
 .organizacao .organizacao-conteudo .conteudo {
     width: 100vw;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
     align-items: center;
     justify-content: center;
@@ -79,6 +79,10 @@
 
 @media (max-width: 900px) {
 
+    .organizacao {
+        height: 100%;
+        width: 100%;
+    }
         
     .organizacao .organizacao-conteudo {
         height: 150%;

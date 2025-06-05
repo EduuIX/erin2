@@ -18,15 +18,15 @@ const PoliticaDeCancelamento = () => {
                     <div className="conteudo">
                         <h3>Coordenação Geral</h3>
                         <ul>
-                            <li>Denis Rosário, UFPA</li>
+                            <li>Thiêgo Nunes, IFAP</li>
                             <li>Iago Medeiros, UFPA</li>
+                            <li>Rafael Pontes, Unifap</li>
                         </ul>
                     </div>
                     <div className="conteudo">
                         <h3>Coordenação do Comitê de Programa</h3>
                         <ul>
-                            <li>Eduardo Cerqueira, UFPA</li>
-                            <li>Hugo Santos, UFRA</li>
+                            <li>Anderson Brasil, IFAP</li>
                         </ul>
                     </div>
                     <div className="conteudo">
