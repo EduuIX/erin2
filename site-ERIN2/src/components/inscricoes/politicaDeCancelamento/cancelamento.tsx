@@ -1,3 +1,4 @@
+import { ComiteOrgnizacao } from '../../comite-organizacao';
 import './cancelamento.css'
 
 const PoliticaDeCancelamento = () => {
@@ -13,7 +14,8 @@ const PoliticaDeCancelamento = () => {
                     outra atividade ou custo adicional. Para solicitar o cancelamento, enviar um
                     e-mail para <span className='link'>faturamento@sbc.org.br</span>.</p>
             </section>
-            <div className="org">
+            <ComiteOrgnizacao />
+            {/* <div className="org">
                 <div className="comite-conteudo">
                     <div className="conteudo">
                         <h3>Coordenação Geral</h3>
@@ -36,7 +38,7 @@ const PoliticaDeCancelamento = () => {
                         </ul>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </>
     );
 }

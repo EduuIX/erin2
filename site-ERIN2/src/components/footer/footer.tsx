@@ -31,7 +31,7 @@ const Footer = () => {
                 </nav>
             </div>
             <div className="redes-sociais">
-                <Link to="https://www.instagram.com/lacis_ufpa?igsh=ZDNtNjdrNTE4bnE1" target="_blank"><i className="fa-brands fa-instagram"></i></Link>
+                <Link to="https://www.instagram.com/erin2sbc" target="_blank"><i className="fa-brands fa-instagram"></i></Link>
                 <Link to="https://www.facebook.com/erin2.sbc" target="_blank"><i className="fa-brands fa-square-facebook"></i></Link>
             </div>
             <div className="dev">

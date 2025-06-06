@@ -1,3 +1,4 @@
+import { ComiteOrgnizacao } from "../../components/comite-organizacao";
 import { Comite } from "../../components/comite/comite";
 import { EventoData } from "../../components/eventoData/eventoData";
 import { LocalEvento } from "../../components/localEvento/localEvento";
@@ -14,6 +15,7 @@ const Evento = () => {
             <Comite />
             <LocalEvento />
             <Organizacao />
+            <ComiteOrgnizacao />
         </>
     );
 }
