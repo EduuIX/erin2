@@ -5,8 +5,8 @@ const PoliticaDeCancelamento = () => {
         <>
             <section className="cancelamento">
                 <h2>Política de Cancelamento</h2>
-                <p>Até o dia 18/09/2024 pode-se fazer a devolução de 70% do valor pago pela
-                    inscrição na XVII Escola Regional de Informática Norte (ERIN 2024), sendo
+                <p>Até o dia 08/08/2025 pode-se fazer a devolução de 70% do valor pago pela
+                    inscrição na XVIII Escola Regional de Informática Norte (ERIN 2025), sendo
                     que os 30% restantes cobrirão os custos administrativos da inscrição. Após
                     esta data não haverá devolução de qualquer valor pago. A política se aplica
                     tanto para o cancelamento da inscrição, quanto para o cancelamento de qualquer

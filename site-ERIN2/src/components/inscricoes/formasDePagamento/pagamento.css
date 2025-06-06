@@ -28,6 +28,11 @@
     font-size: 2rem ;
 }
 
+.alert {
+    background-color: red;
+    color: white;
+}
+
 @media (max-width: 900px) {
 
     .inscricoes {

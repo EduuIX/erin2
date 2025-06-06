@@ -17,8 +17,9 @@
 }
 
 .tabela-conteudo thead .cabecalho th {
-    width: 35%;
+    width: 20%;
     color: #ffffff;
+    padding: 1rem;
 }
 
 .tabela-conteudo tbody tr .percent {
@@ -40,6 +41,7 @@
 .tabela-conteudo tbody tr td {
     text-align: center;
     width: 150px;
+    padding: 2rem;
 }
 
 .tabela-conteudo tbody tr td h3{

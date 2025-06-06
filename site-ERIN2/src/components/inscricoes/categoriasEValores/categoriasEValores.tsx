@@ -13,8 +13,8 @@ const CategoriasEValores = () => {
                     pagamento serão liberadas somente após a validação pela equipe da SBC. O 
                     inscrito receberá e-mails informativos durante todas as etapas do processo de 
                     inscrição. Nosso evento contará com dois períodos de inscrição válidos: o 
-                    primeiro até dia 01/09 (com maiores descontos) e o segundo, mais próximo do 
-                    evento, de 02/09 até 25/09. A seguir, está a Tabela com as Categorias e Valores 
+                    primeiro, de 01/06 (com maiores descontos) até 15/07 e o segundo, mais próximo do 
+                    evento, de 16/07 até 15/08. A seguir, está a Tabela com as Categorias e Valores 
                     de Inscrição:
                 </p>
                 <Tabela />
