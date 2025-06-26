@@ -127,6 +127,16 @@
         height: 200%;
     }
 
+    .organizacao .organizacao-conteudo .conteudo.realizacao {
+        grid-template-columns: 1fr;
+        row-gap: 50px;
+        height: 200%;
+    }
+
+    .organizacao .organizacao-conteudo .conteudo .carta.realizacao {
+    width: 98%;
+}
+
     
     .organizacao .organizacao-conteudo h2 {
         font-size: 4rem;
