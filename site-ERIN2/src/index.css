@@ -8,3 +8,17 @@ body {
     font-weight: 400;
     overflow-x: hidden;
 }
+
+/* Alternativa para navegadores Webkit */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #4b610a; /* Cor da parte deslizante */
+    border-radius: 6px; /* Borda arredondada */
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(204, 204, 204);
+}

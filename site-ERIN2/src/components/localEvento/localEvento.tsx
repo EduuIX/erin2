@@ -10,6 +10,7 @@ const LocalEvento = () => {
                     <div className="utilidade-container">
                         <div className="info">
                             <h4><span className='destaque'>Macapá </span>– AP</h4>
+                            <p>Campus Macapá do Instituto Federal do Amapá</p>
                             <p>Rodovia BR-210, Km 03, S/n - Brasil Novo, AP, 68909-398</p>
                             <h4>E-mail:</h4>
                             <p> <Link className='link' to={"mailto:thiego.nunes@ifap.edu.br, rafael@unifap.br"}>Envie-nos um e-mail</Link></p>

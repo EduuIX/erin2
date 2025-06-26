@@ -7,8 +7,8 @@ const Tabela = () => {
                 <thead>
                     <tr className='cabecalho'>
                         <th colSpan={1}>Erin 2024</th>
-                        <th colSpan={1}>1º PERÍODO (01/08 - 01/09)</th>
-                        <th colSpan={1}>2º PERÍODO (02/09 - 25/09)</th>
+                        <th colSpan={1}>1º PERÍODO (até 15/07)</th>
+                        <th colSpan={1}>2º PERÍODO (até 15/08)</th>
                         <th colSpan={1}>Anuidade</th>
                     </tr>
                     <tr>
@@ -27,14 +27,14 @@ const Tabela = () => {
                     </tr>
                     <tr className='est'>
                         <td className='text'>Estudante associado à SBC com anuidade vencendo em até 90 dias (Melhor opção: COMBO Inscrição no evento + renovação da associação à SBC)</td>
-                        <td>R$  30</td>
-                        <td>R$  40</td>
+                        <td>R$  63</td>
+                        <td>R$  73</td>
                         <td>R$  33</td>
                     </tr>
                     <tr className='est'>
                         <td className='text'>Estudante não associado ou com associação não vigente à SBC (Melhor opção: COMBO Inscrição no evento + renovação da associação à SBC)</td>
-                        <td>R$  30</td>
-                        <td>R$  40</td>
+                        <td>R$  63</td>
+                        <td>R$  73</td>
                         <td>R$  33</td>
                     </tr>
                     <tr className='est'>
@@ -57,14 +57,14 @@ const Tabela = () => {
                     </tr>
                     <tr>
                         <td className='text'>Estudante de pós-graduação associado à SBC com anuidade vencendo em até 90 dias (Melhor opção: COMBO Inscrição no evento + renovação da associação à SBC)</td>
-                        <td>R$  40</td>
-                        <td>R$  50</td>
+                        <td>R$  175</td>
+                        <td>R$  185</td>
                         <td>R$  135</td>
                     </tr>
                     <tr>
                         <td className='text'>Estudante de pós-graduação não associado ou com associação não vigente à SBC (Melhor opção: COMBO Inscrição no evento + renovação da associação à SBC)</td>
-                        <td>R$  40</td>
-                        <td>R$  50</td>
+                        <td>R$  175</td>
+                        <td>R$  185</td>
                         <td>R$  135</td>
                     </tr>
                     <tr>
@@ -86,14 +86,14 @@ const Tabela = () => {
                     </tr>
                     <tr>
                         <td className='text'>Professor de Educação Básica associado à SBC com anuidade vencendo em até 90 dias (Melhor opção: COMBO Inscrição no evento + renovação da associação à SBC)</td>
-                        <td>R$  40</td>
-                        <td>R$  50</td>
+                        <td>R$  175</td>
+                        <td>R$  185</td>
                         <td>R$  135</td>
                     </tr>
                     <tr>
                         <td className='text'>Professor de Educação Básica não associado ou com associação não vigente à SBC (Melhor opção: COMBO Inscrição no evento + renovação da associação à SBC)</td>
-                        <td>R$  40</td>
-                        <td>R$  50</td>
+                        <td>R$  175</td>
+                        <td>R$  185</td>
                         <td>R$  135</td>
                     </tr>
                     <tr>
@@ -115,14 +115,14 @@ const Tabela = () => {
                     </tr>
                     <tr>
                         <td className='text'>Professor de Educação Básica Federal associado à SBC com anuidade vencendo em até 90 dias (Melhor opção: COMBO Inscrição no evento + renovação da associação à SBC)</td>
-                        <td>R$  50</td>
-                        <td>R$  60</td>
+                        <td>R$  420</td>
+                        <td>R$  430</td>
                         <td>R$  370</td>
                     </tr>
                     <tr>
                         <td className='text'>Professor de Educação Básica Federal não associado ou com associação não vigente à SBC (Melhor opção: COMBO Inscrição no evento + renovação da associação à SBC)</td>
-                        <td>R$  50</td>
-                        <td>R$  60</td>
+                        <td>R$  420</td>
+                        <td>R$  430</td>
                         <td>R$  370</td>
                     </tr>
                     <tr>
@@ -144,14 +144,14 @@ const Tabela = () => {
                     </tr>
                     <tr>
                         <td className='text'>Profissional associado à SBC com anuidade vencendo em até 90 dias (Melhor opção: COMBO Inscrição no evento + renovação da associação à SBC)</td>
-                        <td>R$  50</td>
-                        <td>R$  60</td>
+                        <td>R$  425</td>
+                        <td>R$  435</td>
                         <td>R$  375</td>
                     </tr>
                     <tr>
                         <td className='text'>Profissional não associado ou com associação não vigente à SBC (Melhor opção: COMBO Inscrição no evento + renovação da associação à SBC)</td>
-                        <td>R$  50</td>
-                        <td>R$  60</td>
+                        <td>R$  425</td>
+                        <td>R$  435</td>
                         <td>R$  375</td>
                     </tr>
                     <tr>

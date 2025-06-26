@@ -35,7 +35,7 @@ const Footer = () => {
                 <Link to="https://www.facebook.com/erin2.sbc" target="_blank"><i className="fa-brands fa-square-facebook"></i></Link>
             </div>
             <div className="dev">
-                <h5>Desenvolvido por <Link to="https://www.instagram.com/eduu_rib/" target="_blank">Eduardo Ribeiro <i className="fa-solid fa-code"></i></Link></h5>
+                <h5>Desenvolvido por <Link to="https://www.instagram.com/eduu_ix/#" target="_blank">Eduardo Ribeiro <i className="fa-solid fa-code"></i></Link></h5>
                 <p>Copyright <i className="fa-regular fa-copyright"></i> ERIN2 — Todos os direitos reservados</p>
             </div>
         </footer>
