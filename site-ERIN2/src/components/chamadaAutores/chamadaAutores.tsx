@@ -13,7 +13,7 @@ const ChamadaAutores = () => {
                         target="_blank">template</Link> respeitando o
                     limite máximo de seis (6) páginas (apresentação oral). Serão observados os
                     critérios de originalidade, relevância, apresentação e qualidade técnica no
-                    julgamento dos trabalhos.
+                    julgamento dos trabalhos A submissão pode ser feita no seguinte link:  <Link className='link' to="https://jems3.sbc.org.br/erin22025" target='_blank'>https://jems3.sbc.org.br/erin22025</Link>.
                 </p>
             </div>
         </>

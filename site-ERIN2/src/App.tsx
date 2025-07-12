@@ -14,6 +14,7 @@ import { Evento } from './routes/evento/evento'
 import { Contato } from './routes/contato/contato'
 import { NotFound } from './routes/notFound/notFound'
 import { Footer } from './components/footer/footer';
+import { Atracoes } from './routes/atracoes';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
                         <Route path="/" element={<Home />} />
                         <Route path="/chamadas" element={<Chamadas />} />
                         <Route path="/programacao" element={<Programacao />} />
+                        <Route path="/atracoes" element={<Atracoes />} />
                         <Route path="/inscricoes" element={<Inscricoes />} />
                         <Route path="/evento" element={<Evento />} />
                         <Route path="/contato" element={<Contato />} />

@@ -1,0 +1,108 @@
+.palestras .palestra {
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    padding-bottom: 10rem;
+    border-bottom: 2px solid #387928;
+}
+
+.palestras .palestra img {
+    height: 500px;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.palestras .palestra .content {
+    margin-left: 10%;
+}
+
+.palestras .palestra .content .icon img {
+    display: none;
+}
+
+.palestras .palestra .content .icon h3 {
+    color: #387928;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 5rem;
+}
+
+.palestras .palestra .content .icon p {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+.palestras .palestra .content h2 {
+    color: #88b10c;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    margin: 2rem 0;
+}
+
+.palestras .palestra .content .resumo {
+    margin: 2rem 0;
+}
+
+.palestras .palestra .content .biografia span {
+    font-style: italic;
+    font-weight: 800;
+}
+
+
+
+@media (max-width: 900px) {
+
+    .palestras .palestra {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 5rem;
+    }
+
+
+    .palestras .palestra img {
+        display: flex;
+        margin: 1rem 0;
+    }
+
+
+    .palestras .palestra .content {
+        margin: 0;
+    }
+
+    .palestras .palestra .content .icon {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .palestras .palestra .content .icon img {
+        display: none;
+        height: 120px;
+        margin-right: 2rem;
+    }
+
+
+    .palestras .palestra .content .icon h3 {
+        text-align: center;
+        font-size: 3.5rem;
+    }
+
+    .palestras .palestra .content .icon p {
+        text-align: center;
+        font-size: 1.6rem;
+    }
+
+
+    .palestras .palestra .content h2 {
+        margin: 4rem 0;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+
+}

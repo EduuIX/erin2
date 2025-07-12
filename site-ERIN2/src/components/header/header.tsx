@@ -39,6 +39,7 @@ const Header = () => {
                             <li><Link onClick={scrollToTop} to="/">Home</Link></li>
                             <li><Link onClick={scrollToTop} to="/chamadas">Chamadas</Link></li>
                             <li><Link onClick={scrollToTop} to="/programacao">Programação</Link></li>
+                            <li><Link onClick={scrollToTop} to="/atracoes">Atrações</Link></li>
                             <li><Link onClick={scrollToTop} to="/inscricoes">Inscrições</Link></li>
                             <li><Link onClick={scrollToTop} to="/evento">Evento</Link></li>
                             <li><Link onClick={scrollToTop} to="/contato">Contato</Link></li>

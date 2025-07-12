@@ -1,0 +1,64 @@
+.atracoes {
+    width: 100%;
+    padding: 10rem;
+}
+
+.atracoes .sub-routes {
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+    margin: 2rem 0;
+}
+
+.atracoes .sub-routes button {
+    border-radius: 5px;
+    padding: 2rem;
+    border: none;
+    background-color: #858585;
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.atracoes .sub-routes button:disabled {
+    background-color: #88b10c;
+}
+
+
+
+.atracoes main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.atracoes main .main-container {
+    margin: 10rem 0;
+}
+
+
+@media (max-width: 900px) {
+
+    .atracoes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 3rem 2rem;
+    }
+
+    .atracoes .sub-routes {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .atracoes .sub-routes button {
+        padding: 2rem;
+    }
+
+}

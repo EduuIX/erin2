@@ -33,6 +33,19 @@
     margin-top: 10px;
     font-size: 1.4rem;
 }
+
+.section-comite .comite-conteudo .conteudo ul li .icon_user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-comite .comite-conteudo .conteudo ul li .icon_user img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 2rem;
+}
 /* ========================================================= */
 
 @media (max-width: 900px) {

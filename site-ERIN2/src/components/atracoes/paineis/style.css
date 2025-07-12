@@ -1,0 +1,138 @@
+.paineis .painel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-bottom: 10rem;
+    border-bottom: 2px solid #387928;
+}
+
+.paineis .painel .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    width: 100%;
+    margin: 5rem 0;
+}
+
+.paineis .painel img {
+    margin: 0 1rem;
+    height: 500px;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.paineis .painel .content {
+    width: 100%;
+    text-align: center;
+}
+
+.paineis .painel .images {
+    text-align: center;
+}
+
+.paineis .painel .images .icon img {
+    display: none;
+}
+
+.paineis .painel .images .icon h3 {
+    color: #387928;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 5rem;
+}
+
+.paineis .painel .images .icon p {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    padding: 0 1rem;
+}
+
+.paineis .painel .content h2 {
+    color: #88b10c;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    margin: 2rem 0;
+}
+
+.paineis .painel .content .resumo {
+    margin: 2rem 0;
+}
+
+.paineis .painel .images .icon .biografia p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paineis .painel .images .icon .biografia span {
+    font-style: italic;
+    font-weight: 800;
+}
+
+
+
+@media (max-width: 900px) {
+
+    .paineis .painel {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 5rem;
+    }
+
+
+    .paineis .painel img {
+        display: flex;
+        justify-content: center;
+        justify-self: center;
+    }
+
+
+    .paineis .painel .container {
+        grid-template-columns: 1fr;
+    }
+
+    .paineis .painel .container .images {
+        margin: 2rem 0;
+        margin-bottom: 5rem;
+    }
+
+    .paineis .painel .content {
+        margin: 0;
+    }
+
+    .paineis .painel .content .icon {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .paineis .painel .container .images .icon img {
+        display: none;
+        justify-content: center;
+        align-items: center;
+        height: 120px;
+    }
+
+
+    .paineis .painel .content .icon h3 {
+        text-align: center;
+        font-size: 3.5rem;
+    }
+
+    .paineis .painel .content .icon p {
+        text-align: center;
+        font-size: 1.6rem;
+    }
+
+
+    .paineis .painel .content h2 {
+        margin: 4rem 0;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+
+}
