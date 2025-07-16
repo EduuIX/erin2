@@ -7,7 +7,7 @@ const Tabela = () => {
                 <thead>
                     <tr className='cabecalho'>
                         <th colSpan={1}>Erin 2024</th>
-                        <th colSpan={1}>1º PERÍODO (até 15/07)</th>
+                        <th colSpan={1}>1º PERÍODO (até 21/07)</th>
                         <th colSpan={1}>2º PERÍODO (até 15/08)</th>
                         <th colSpan={1}>Anuidade</th>
                     </tr>
