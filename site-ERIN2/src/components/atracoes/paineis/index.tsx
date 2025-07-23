@@ -1,5 +1,5 @@
 import './style.css'
-import icon_Eduardo from '../../../assets/palestrantes/Eduardo/Eduardo.jpg'
+import icon_Eduardo from '../../../assets/palestrantes/Eduardo/Eduardo.svg'
 import icon_Antonio from '../../../assets/palestrantes/Antonio/antonio.jpeg'
 
 
@@ -10,6 +10,23 @@ const Paineis = () => {
                 <div className="painel">
                     <div className="content">
                         <h2>Norte Conectado: Transformação Digital e Inclusão Tecnológica na Amazônia</h2>
+                    </div>
+                    <div className="resumo">
+                        <p>
+                            O painel "Norte Conectado: Transformação Digital e Inclusão Tecnológica na Amazônia" aborda os desafios e as 
+                            oportunidades da transformação digital na região Norte do Brasil, com foco na inclusão tecnológica como motor de 
+                            desenvolvimento sustentável. A discussão é enriquecida pela participação de Eduardo Grizendi, Diretor de 
+                            Engenharia e Operações da RNP, que traz uma vasta experiência na área de telecomunicações e inovação. 
+                            A palestra destaca a importância da conectividade para a promoção de educação e inclusão digital, além de 
+                            ressaltar o papel das tecnologias emergentes na melhoria da qualidade de vida das populações amazônicas.
+                        </p>
+                        <p>
+                            No evento, também temos a participação de Antônio Teles Júnior, Vice-Governador do Estado do Amapá, que compartilhará 
+                            sua visão sobre como a gestão pública pode alavancar políticas de inclusão digital e infraestrutura para garantir o 
+                            acesso à tecnologia. O painel visa não apenas discutir os desafios técnicos e logísticos da região, mas também a 
+                            importância da colaboração entre governos, empresas e instituições de ensino para promover a inclusão tecnológica e 
+                            fortalecer a Amazônia como um polo de inovação.
+                        </p>
                     </div>
                     <div className="container">
                         <div className="images">

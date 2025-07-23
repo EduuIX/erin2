@@ -1,7 +1,7 @@
 import './comite.css'
 
 import thiego from '../../assets/palestrantes/Thiego/WhatsApp Image 2025-07-08 at 13.47.03 1.svg'
-import iago from '../../assets/palestrantes/IagoMedeiros/Foto SR Norte 2 - Iago - Opcao 2(1) 1 (1).svg'
+import iago from '../../assets/palestrantes/IagoMedeiros/Iago.svg'
 import rafael from '../../assets/palestrantes/Rafael/WhatsApp Image 2025-07-08 at 13.47.02 1.svg'
 
 

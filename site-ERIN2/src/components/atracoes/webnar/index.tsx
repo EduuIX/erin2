@@ -1,5 +1,5 @@
 import './style.css'
-import icon_Carlos from '../../../assets/palestrantes/Carlos/Carlos.jpeg'
+import icon_Carlos from '../../../assets/palestrantes/Carlos/Carlos.svg'
 
 
 const Webnars = () => {
