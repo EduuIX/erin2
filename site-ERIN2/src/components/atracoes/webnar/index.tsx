@@ -1,5 +1,6 @@
 import './style.css'
 import icon_Carlos from '../../../assets/palestrantes/Carlos/Carlos.svg'
+import icon_Waldir from '../../../assets/palestrantes/Waldir/Waldir.svg'
 
 
 const Webnars = () => {
@@ -45,6 +46,41 @@ const Webnars = () => {
                                 e Acreditação dos Ciclos de Estudos do Ensino Superior, para a área de Engenharia da Computação. É Diretor do Mestrado em Engenharia 
                                 de IA e Diretor do novo Programa de Doutoramento em IA e Engenharia de Sistemas Inteligentes do ISEP/IPP (o primeiro exclusivo para 
                                 IA em Portugal). Suas pesquisas centram-se em IA.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div className="webnar">
+                    <img src={icon_Waldir} alt="" />
+                    <div className="content">
+                        <div className="icon">
+                            <img src={icon_Waldir} alt="" />
+                            <div className="info-prof">
+                                <h3>Dr. Waldir Aranha Moreira Júnior</h3>
+                                <p>Fraunhofer Portugal AICOS</p>
+                            </div>
+                        </div>
+                        <h2>Introdução à Orquestração para Internet da Coisas com Tecnologias Nativas da Nuvem</h2>
+                        <div className="resumo">
+                            <p>
+                                Este webinar aborda o crescimento da IoT, seus componentes, casos de uso e os desafios inerentes. O webinar também 
+                                apresenta a utilização da orquestração com base em conceitos nativos da nuvem, como microsserviços e automação da 
+                                sua implantação na rede de dispositivos IoT, para gerenciar a complexidade de dispositivos heterogêneos e de limitada 
+                                capacidade de recursos, com foco especial na escalabilidade e na gestão integrada desde a nuvem até ao sensor/actuador 
+                                dos diferentes microsserviços que compõem a aplicação. O objetivo é demonstrar como essas tecnologias facilitam o 
+                                gerenciamento eficiente e a implantação de soluções IoT em diferente cenários aplicação.
+                            </p>
+                        </div>
+                        <div className="biografia">
+                            <p>
+                                <span>Biografia</span>:
+                                Waldir Moreira tem Doutoramento em Telecomunicações pelas Universidades do Minho, Aveiro e Porto, com 
+                                Mestrado e Bacharelado em Ciência da Computação obtidos da Universidade Federal do Pará e Universidade da Amazônia. 
+                                Atualmente, ele é Investigador Sénior e Líder de Inovação para Agricultura Digital na Fraunhofer Portugal AICOS. 
+                                Seus trabalhos, interesses de investigação e publicações incluem redes adhoc, mesh, baseadas em aspectos sociais, 
+                                cooperativas, oportunistas, centradas nos utilizadores e informação, e definidas por software, bem como tecnologias da 
+                                informação e comunicação para o desenvolvimento (ICT4D), serviços e ferramentas digitais para inclusão e empoderamento, 
+                                implantação de redes em zonas desfavorecidas, internet das coisas, cidades inteligentes, agricultura digital e indústria 4.0.
                             </p>
                         </div>
                     </div>

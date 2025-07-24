@@ -1,6 +1,7 @@
 import './style.css'
 import icon_Iago from '../../../assets/palestrantes/IagoMedeiros/Iago.svg'
 import icon_Ramon from '../../../assets/palestrantes/Ramon/ramon.svg'
+import icon_Artur from '../../../assets/palestrantes/Artur/Artur.svg'
 
 
 const Palestras = () => {
@@ -109,6 +110,33 @@ const Palestras = () => {
                                 Analista Judiciário – Apoio Especializado em Tecnologia da Informação no Tribunal Regional do Trabalho da 8ª Região (TRT8). 
                                 Possui certificações reconhecidas como ITIL, COBIT e ISO 27002, e formação prática em desenvolvimento como Full Stack Web Developer 
                                 pela Ironhack (Turma 92).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div className="palestra">
+                    <img src={icon_Artur} alt="" />
+                    <div className="content">
+                        <div className="icon">
+                            <img src={icon_Artur} alt="Foto do palestrante Ramon Torres Cruz" />
+                            <div className="info-prof">
+                                <h3>Artur Corumba</h3>
+                                <p>Diretor na Corumba Soluções em T.I.</p>
+                            </div>
+                        </div>
+                        <h2>TI Estratégica e Escalável: Experiências do Amapá para o Mundo</h2>
+                        <div className="resumo">
+                            <p>
+                                Com forte atuação no setor público e privado, Artur traz uma visão prática sobre como tecnologias como Mikrotik, NGINX e 
+                                Docker têm sido aliadas na superação de desafios regionais. Sua palestra mostra como é possível escalar serviços críticos 
+                                com soluções open source — mesmo em contextos com infraestrutura limitada.
+                            </p>
+                        </div>
+                        <div className="biografia">
+                            <p><span>Biografia</span>:
+                                Especialista em Infraestrutura de TI com 20+ anos, transformando negócios através da tecnologia.
+                                Lidera projetos estratégicos de migração, implementação e gerenciamento de ambientes complexos, entregando soluções robustas e 
+                                escaláveis que garantem alta disponibilidade, segurança avançada e eficiência operacional comprovada
                             </p>
                         </div>
                     </div>
