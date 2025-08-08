@@ -2,6 +2,7 @@ import './style.css'
 import icon_Iago from '../../../assets/palestrantes/IagoMedeiros/Iago.svg'
 import icon_Ramon from '../../../assets/palestrantes/Ramon/ramon.svg'
 import icon_Artur from '../../../assets/palestrantes/Artur/Artur.svg'
+import icon_Clayton from '../../../assets/palestrantes/Clayton/clayton.svg'
 
 
 const Palestras = () => {
@@ -136,7 +137,39 @@ const Palestras = () => {
                             <p><span>Biografia</span>:
                                 Especialista em Infraestrutura de TI com 20+ anos, transformando negócios através da tecnologia.
                                 Lidera projetos estratégicos de migração, implementação e gerenciamento de ambientes complexos, entregando soluções robustas e 
-                                escaláveis que garantem alta disponibilidade, segurança avançada e eficiência operacional comprovada
+                                escaláveis que garantem alta disponibilidade, segurança avançada e eficiência operacional comprovada.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div className="palestra">
+                    <img src={icon_Clayton} alt="" />
+                    <div className="content">
+                        <div className="icon">
+                            <img src={icon_Clayton} alt="Foto do palestrante Clayton Ataíde" />
+                            <div className="info-prof">
+                                <h3>Clayton Ataíde</h3>
+                                <p>CIO do TJAP | Mentor | Autor do livro "Pare de trabalhar na TI só para apagar incêndio"</p>
+                            </div>
+                        </div>
+                        <h2>MÉTODO GTI: SUA TI DO CAOS À INOVAÇÃO EM 7 ESTÁGIOS</h2>
+                        <div className="resumo">
+                            <p>
+                                Clayton Ataíde, com quase 20 anos de experiência e uma trajetória como CIO em grandes tribunais, vai compartilhar 
+                                seu método premiado de governança e gestão, que transforma a TI de uma área sobrecarregada de suporte para um 
+                                parceiro estratégico essencial. Com base em 30 anos de expertise, ele revela como conquistar apoio e orçamento 
+                                para a inovação!
+                            </p>
+                        </div>
+                        <div className="biografia">
+                            <p><span>Biografia</span>:
+                                Clayton Ataíde, CIO do TJAP, Mentor e Autor do livro "Pare de trabalhar na TI só para apagar incêndio" mostra como levar 
+                                a TI de uma sobrecarregada área de suporte para o principal parceiro estratégico da organização, conquistando 
+                                apoio e orçamento para inovar. 
+                                Ex-instrutor oficial da Microsoft, ITIL e COBIT, Clayton Ataíde percebeu que era necessário ir além 
+                                dos cursos que ministrava para gerar transformação nas empresas, desenvolvendo ao longo de quase 20 
+                                anos um método premiado de governança e gestão, dividido em 7 estágios práticos, baseado em 30 anos de 
+                                experiência e na jornada como CIO em grandes tribunais do país (TRE-PA, TJPA, TJRR, TJPI e TJAP).
                             </p>
                         </div>
                     </div>

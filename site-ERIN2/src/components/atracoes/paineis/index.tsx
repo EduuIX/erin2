@@ -1,6 +1,8 @@
 import './style.css'
 import icon_Eduardo from '../../../assets/palestrantes/Eduardo/Eduardo.svg'
 import icon_Antonio from '../../../assets/palestrantes/Antonio/antonio.jpeg'
+import icon_Alex from '../../../assets/palestrantes/Alex/alex_rogerio.svg'
+import icon_Andrei from '../../../assets/palestrantes/Andrei/Andrei.svg'
 
 
 const Paineis = () => {
@@ -9,7 +11,7 @@ const Paineis = () => {
             <section className="paineis">
                 <div className="painel">
                     <div className="content">
-                        <h2>Norte Conectado: Transformação Digital e Inclusão Tecnológica na Amazônia</h2>
+                        <h2>Painel de Abertura - Norte Conectado: Transformação Digital e Inclusão Tecnológica na Amazônia</h2>
                     </div>
                     <div className="resumo">
                         <p>
@@ -65,6 +67,59 @@ const Paineis = () => {
                                         Em 2011 passou a integrar o corpo societário da empresa Numeric Consultoria, atuando como prestador de serviços no Serviço de 
                                         Apoio as Micro e Pequenas Empresas – SEBRAE. No ano de 2013, foi admitido como 
                                         Professor de Magistério Superior na Universidade Federal do Amapá - UNIFAP.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="painel">
+                    <div className="content">
+                        <h2>Painel 1 - Conectividade e Inovação para a Amazônia Digital</h2>
+                    </div>
+                    {/* <div className="resumo">
+                        <p>
+                            O painel "Norte Conectado: Transformação Digital e Inclusão Tecnológica na Amazônia" aborda os desafios e as 
+                            oportunidades da transformação digital na região Norte do Brasil, com foco na inclusão tecnológica como motor de 
+                            desenvolvimento sustentável. A discussão é enriquecida pela participação de Eduardo Grizendi, Diretor de 
+                            Engenharia e Operações da RNP, que traz uma vasta experiência na área de telecomunicações e inovação. 
+                            A palestra destaca a importância da conectividade para a promoção de educação e inclusão digital, além de 
+                            ressaltar o papel das tecnologias emergentes na melhoria da qualidade de vida das populações amazônicas.
+                        </p>
+                    </div> */}
+                    <div className="container">
+                        <div className="images">
+                            <img src={icon_Alex} alt="" />
+                            <div className="icon">
+                                <img src={icon_Alex} alt="" />
+                                <div className="info-prof">
+                                    <h3>Alex Rogério de Almeida Fernandes</h3>
+                                    <p>Diretor de Infraestrutura Computacional no PRODAP</p>
+                                </div>
+                                <div className="biografia">
+                                    <p>
+                                        <span>Biografia</span>:
+                                        Alex Rogério é especialista em Geoprocessamento e Ordenamento Territorial, com mais de 27 anos de 
+                                        experiência no setor de tecnologia. Ele contribui de forma estratégica para a modernização da 
+                                        gestão pública e o avanço digital no Amapá. 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="images">
+                            <img src={icon_Andrei} alt="" />
+                            <div className="icon">
+                                <img src={icon_Andrei} alt="" />
+                                <div className="info-prof">
+                                    <h3>Andrei Amaral</h3>
+                                    <p>Gerente de Projetos Estratégicos na RNP</p>
+                                </div>
+                                <div className="biografia">
+                                    <p>
+                                        <span>Biografia</span>: 
+                                        Andrei Amaral atua na RNP desde 2020, liderando projetos focados na conectividade e 
+                                        inovação para a Amazônia Digital, com ampla experiência em gerenciamento de projetos e 
+                                        infraestrutura de redes.
                                     </p>
                                 </div>
                             </div>

@@ -13,7 +13,7 @@ const PublicoAlvo = () => {
                         além de <strong className="destaque">profissionais</strong>, <strong className="destaque">empreendedores</strong> e <strong className="destaque">empresas do setor tecnológico</strong>.
                         O evento também é aberto à participação de gestores públicos, representantes de
                         startups, ONGs e instituições que atuam com <strong className="destaque">inovação</strong>, <strong className="destaque">educação</strong>, <strong className="destaque">inclusão
-                        digital</strong> e <strong className="destaque">desenvolvimento regional</strong>. Este ano o evento será <strong className='destaque'>sediado em Macapá</strong> no <strong className='destaque'>campus do Instituto Federal do Amapá (IFAP)</strong>.
+                        digital</strong> e <strong className="destaque">desenvolvimento regional</strong>. Este ano o evento será <strong className='destaque'>sediado em Macapá</strong> no <strong className='destaque'>Hub de Inovação Amazoon</strong>.
                     </p>
                     <p>
                         A programação da ERIN2 contempla trabalhos científicos e de extensão nas áreas de:
