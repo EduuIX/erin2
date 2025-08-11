@@ -19,7 +19,7 @@ const Atracoes = () => {
                 <div className="sub-routes">
                     <button onClick={() => setView('1')} disabled={view === '1'}>Palestra</button>
                     <button onClick={() => setView('2')} disabled={view === '2'}>Painel</button>
-                    <button onClick={() => setView('3')} disabled={view === '3'}>Webnar</button>
+                    <button onClick={() => setView('3')} disabled={view === '3'}>Webinar</button>
                 </div>
 
                 <main>

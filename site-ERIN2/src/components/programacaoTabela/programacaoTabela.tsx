@@ -36,72 +36,73 @@ const ProgramacaoTabela: React.FC = () => {
         <tr>
           <td style={cellStyle}>08h20 – 09h00</td>
           <td style={cellStyle}>Solenidade de Abertura</td>
-          <td style={cellStyle2}></td>
-          <td style={cellStyle2}>Minicursos Técnicos</td>
+          <td style={cellStyle2}>09h00 – 10h15</td>
+          <td style={cellStyle2}>Webinar 1: Sociedade Brasileira de Computação: Desafios e Perspectivas</td>
           <td style={cellStyle}>08h30 – 09h45</td>
           <td style={cellStyle}>Palestra 2: Sociedade Brasileira de Computação: Desafios e Perspectivas</td>
         </tr>
         <tr>
           <td style={cellStyle}>09h15 – 10h00</td>
           <td style={cellStyle}>Painel de Abertura: Norte Conectado: Transformação Digital e Inclusão Tecnológica na Amazônia</td>
-          <td style={cellStyle2}></td>
-          <td style={cellStyle2}>Sessões Técnicas de Trabalhos Científicos</td>
+          <td style={cellStyle2}>10h15 – 10h45</td>
+          <td style={cellStyle2}>Intervalo</td>
           <td style={cellStyle}>09h45 – 10h00</td>
           <td style={cellStyle}>Intervalo</td>
         </tr>
         <tr>
           <td style={cellStyle}>10h00 – 10h15</td>
           <td style={cellStyle}>Intervalo</td>
-          <td style={cellStyle2}>08h30 – 12h00</td>
-          <td style={cellStyle2}>Webinars</td>
+          <td style={cellStyle2}>10h45 – 12h00</td>
+          <td style={cellStyle2}>Webinar 2: Inteligência Artificial e Engenharia de Sistemas Inteligentes</td>
           <td style={cellStyle}>10h00 – 12h00</td>
-          <td style={cellStyle}>Painel 3: Inteligência Artificial e Desenvolvimento 10h15 – 12h00 Regional</td>
+          <td style={cellStyle}>Painel 3: TI Estratégica e Escalável: Experiências do Amapá para o Mundo</td>
         </tr>
         <tr>
           <td style={cellStyle}>10h15 – 12h00</td>
           <td style={cellStyle}>Painel 1: Conectividade e Inovação para a Amazônia Digital</td>
           <td style={cellStyle2}></td>
-          <td style={cellStyle2}>Oficinas Interativas</td>
-          <td style={cellStyle}>12H00 – 14H00</td>
-          <td style={cellStyle}>Almoço</td>
+          <td style={cellStyle2}></td>
+          <td style={cellStyle}></td>
+          <td style={cellStyle}></td>
+
         </tr>
         <tr>
           <td style={cellStyle}>12h00 – 14h00</td>
           <td style={cellStyle}>Almoço</td>
           <td style={cellStyle2}>12H00 – 14H00</td>
-          <td style={cellStyle2}>Mostra de Projetos e Soluções Inovadoras</td>
-          <td style={cellStyle}>14h00 – 16h30</td>
-          <td style={cellStyle}>Painel 4: Empreendedorismo Digital e Inclusivo</td>
+          <td style={cellStyle2}>Almoço</td>
+          <td style={cellStyle}>12H00 – 14H00</td>
+          <td style={cellStyle}>Almoço</td>
         </tr>
         <tr>
           <td style={cellStyle}>14h00 – 15h15</td>
-          <td style={cellStyle}>Palestra 1: Computação e Internet Quântica: Fronteiras da Nova Era Digital</td>
-          <td style={cellStyle2}>12H00 – 14H00</td>
-          <td style={cellStyle2}>Almoço</td>
-          <td style={cellStyle}>16h30</td>
-          <td style={cellStyle}>Encerramento e Agradecimentos Finais</td>
+          <td style={cellStyle}>Palestra 1: A Justiça Social no Amapá: cidadania através do ensino de informática</td>
+          <td style={cellStyle2}>14h30 – 15h30</td>
+          <td style={cellStyle2}>Sessão Técnica 2 – Inteligência Artificial e Engenharia de Software</td>
+          <td style={cellStyle}>14h30 – 16h30</td>
+          <td style={cellStyle}>Sessão Técnica 4  – Tecnologias Educacionais e Inovação no Ensino</td>
         </tr>
         <tr>
           <td style={cellStyle}>15h15 – 15h30</td>
           <td style={cellStyle}>Intervalo</td>
+          <td style={cellStyle2}>15h30 – 16h00</td>
+          <td style={cellStyle2}>Intervalo</td>
+          <td style={cellStyle}>16h30</td>
+          <td style={cellStyle}>Encerramento e Agradecimentos Finais</td>
+        </tr>
+        <tr>
+          <td style={cellStyle}>15h30 – 16h30</td>
+          <td style={cellStyle}>Palestra 2: Método GTI: sua TI do caos à inovação em 7 estágios</td>
+          <td style={cellStyle2}>16h00 – 17h30</td>
+          <td style={cellStyle2}>Sessão Técnica 3 – Segurança e Privacidade em Sistemas Inteligentes</td>
+          <td style={cellStyle}></td>
+          <td style={cellStyle}></td>
+        </tr>
+        <tr>
+          <td style={cellStyle}>16h30 – 17h30</td>
+          <td style={cellStyle}>Sessão Técnica 1: Robótica, Inclusão Digital e Cidadania</td>
           <td style={cellStyle2}></td>
-          <td style={cellStyle2}>Minicursos Técnicos</td>
-          <td style={cellStyle}></td>
-          <td style={cellStyle}></td>
-        </tr>
-        <tr>
-          <td style={cellStyle}>15h30 – 17h30</td>
-          <td style={cellStyle}>Painel 2: Políticas Públicas e Inovação: Articulação entre Governo, Indústria e Academia</td>
-          <td style={cellStyle2}>14h00 – 17h00</td>
-          <td style={cellStyle2}>Oficinas Avançadas e Hands-on</td>
-          <td style={cellStyle}></td>
-          <td style={cellStyle}></td>
-        </tr>
-        <tr>
-          <td style={cellStyle}></td>
-          <td style={cellStyle}></td>
-          <td style={cellStyle2}>15h30 – 17h30</td>
-          <td style={cellStyle2}>Sessões de Pôsteres e Banners Científicos</td>
+          <td style={cellStyle2}></td>
           <td style={cellStyle}></td>
           <td style={cellStyle}></td>
         </tr>
